@@ -330,7 +330,7 @@ header .mobile {
 
 @media only screen and (max-width: 890px) {
   #filters-section {
-    padding: 1.5rem 0 0 0;
+    padding: 3rem 0 0 0;
   }
 
   .content .center {
@@ -340,11 +340,15 @@ header .mobile {
 
     #filters-section .content {
       padding: 1.5rem;
-      margin-bottom: 0;
+      margin-bottom: 3rem;
     }
 }
 
 @media only screen and (max-width: 760px) {
+  #filters-section {
+    padding: 1.5rem 0 0 0;
+  }
+
   #filters-section .content {
     margin-bottom: 1rem;
   }
